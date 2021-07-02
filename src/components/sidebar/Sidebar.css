@@ -1,3 +1,8 @@
+.sidebar {
+	flex: 0.3;
+	max-width: 15vw;
+	padding-right: 2rem;
+}
 .sidebar__compose {
 	margin-top: 1.5rem !important;
 	margin-left: 1rem !important;

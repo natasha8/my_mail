@@ -1,10 +1,10 @@
 import React from "react";
 import "./Header.css";
-import MenuSharpIcon from "@material-ui/icons/MenuSharp";
+import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
 import SearchSharpIcon from "@material-ui/icons/SearchSharp";
 import KeyboardArrowDownRoundedIcon from "@material-ui/icons/KeyboardArrowDownRounded";
-import NotificationsTwoToneIcon from "@material-ui/icons/NotificationsTwoTone";
-import AppsIcon from "@material-ui/icons/Apps";
+import NotificationsRoundedIcon from "@material-ui/icons/NotificationsRounded";
+import AppsRoundedIcon from "@material-ui/icons/AppsRounded";
 import { Avatar, IconButton } from "@material-ui/core";
 import Logo from "./logo.png";
 
@@ -13,7 +13,7 @@ const Header = () => {
 		<div className="header">
 			<div className="header__left">
 				<IconButton>
-					<MenuSharpIcon />
+					<MenuRoundedIcon />
 				</IconButton>
 				<img src={Logo} alt="logo" />
 			</div>
@@ -24,10 +24,10 @@ const Header = () => {
 			</div>
 			<div className="header__right">
 				<IconButton>
-					<AppsIcon />
+					<AppsRoundedIcon />
 				</IconButton>
 				<IconButton>
-					<NotificationsTwoToneIcon />
+					<NotificationsRoundedIcon />
 				</IconButton>
 				<Avatar />
 			</div>
