@@ -10,7 +10,6 @@ function App() {
 		<div className="app">
 			<Header />
 			<Sidebar />
-			<h1>MYMAIL</h1>
 		</div>
 	);
 }
